@@ -20,6 +20,8 @@ jobs:
         java-version: 8
     - name: Build with Maven
       run: mvn clean install
+      
+    - name: To run Jar
       run: java -jar jar-localtion.jar
 
     - name: Configure AWS credentials
