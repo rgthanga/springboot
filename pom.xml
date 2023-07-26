@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=cobra.jar -DgroupId=com.cobra -DartifactId=cobra -Dversion=0.98.4 -Dpackaging=jar -DgeneratePom=true
